@@ -70,7 +70,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
-    
+    margin-top: 30px;
 }
 
 nav div {
@@ -94,7 +94,7 @@ nav div a:before {
     position: absolute;
     width: 100%;
     height: 2px;
-    top: -8px;
+    top: -38px;
     left: 0;
     background-color: #0065FC;
     visibility: hidden;
@@ -172,6 +172,56 @@ nav div a:hover:before {
 }
 
 
+/* code rajouté pour section activités */
+.section-activity h2{
+    padding:90px 0 30px 60px ;
+}
+
+.activity{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 30px;
+    padding-bottom: 90px;
+}
+
+
+.card-activity{
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    height: 
+    439px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+    
+ 
+ .card-activity img{
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    height: 76%;
+    width: 100%;
+}
+
+.card-activity h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* code rajouté pour footer */
+footer{
+    display: flex;
+    /* ci dessous même code que pour hébergements et populaires */
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+   
+}
+
+footer div{
+    margin-right: auto;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -214,4 +264,25 @@ nav div a:hover:before {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+   
+    /* Pour section activity */
+    .activity{
+        flex-direction: column;
 }
+    .card-activity{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* Pour section hébergement et populaires */
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+     }
+
+
+    /* pour section footer */
+    footer{
+        flex-direction: column;
+    }
+}
+/* essai */
