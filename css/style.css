@@ -148,7 +148,44 @@ nav div a:hover:before {
 }
 
 /* Style pour la barre de recherche */
+.search-bar{
+    display: flex;
+    margin-bottom: 20px;
 
+}
+.search-bar-logo{
+    width: 40px;
+    height: 49px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar-input{
+    border-top: 1px solid #d9d9d9; 
+    border-bottom: 1px solid #d9d9d9; 
+    border-left: none;
+    border-right: none;
+}
+.search-bar-button-desktop{
+    width: 120px;
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+    background-color: #0065fc;
+    color:white;
+    border: none;
+}
+.search-bar-button-mobile{
+    width: 49px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0065FC;
+    box-shadow:0 9px 10px -10px #000000;
+    display: none;
+}
 
 .information{
     display: flex;
@@ -331,6 +368,13 @@ footer div{
     .lien{
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .search-bar-button-mobile{
+        display: block;
+    }
+    .search-bar-button-desktop{
+        display: none;
     }
 
     /* Pour section hébergement et populaires */
