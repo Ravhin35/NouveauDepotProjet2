@@ -106,6 +106,61 @@ nav div a:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
+       /***** Infos-groupes *****/
+
+/* Style pour la barre de filtre */
+.filter-bar{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 10px;
+}
+    
+.filter-bar span{
+        margin-right: 1.5%;
+        
+}
+    
+.filter-bar button {
+        background-color: white;
+        border-radius: 15px 15px;
+        border: 1px solid #D9D9D9;
+        padding: 8px;
+        margin-right: 10px;
+}
+    
+.filter-bar button:hover {
+        background-color: #DEEBFF;
+ }
+
+ /* création du cercle autour du i */
+ .fa-solid.fa-info.fa-2xs {
+    width: 20px; 
+    height: 20px; 
+    border: 1.5px solid #d9d9d9;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    }
+.filter-bar-strong{
+    font-size: 15px;
+}
+
+/* Style pour la barre de recherche */
+
+
+.information{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.information i{
+    margin-right: 5px;
+}
+
+
 
 
 /****** Hebergements And Populaires ***********/
@@ -173,6 +228,10 @@ nav div a:hover:before {
 
 
 /* code rajouté pour section activités */
+.lien{
+    width: 20%;
+}
+
 .section-activity h2{
     padding:90px 0 30px 60px ;
 }
@@ -189,7 +248,7 @@ nav div a:hover:before {
 .card-activity{
     background-color: white;
     border-radius: 20px;
-    width: 20%;
+   
     height: 
     439px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -216,7 +275,7 @@ footer{
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
-   
+    
 }
 
 footer div{
@@ -269,7 +328,7 @@ footer div{
     .activity{
         flex-direction: column;
 }
-    .card-activity{
+    .lien{
         width: 100%;
         margin-bottom: 50px;
     }
