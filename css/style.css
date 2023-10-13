@@ -80,13 +80,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
     margin-top: 30px;
 }
 
 nav div {
     display: flex;
-    width: 30%;
+    width: 25%;
     justify-content: space-around;
 }
 
@@ -96,9 +95,24 @@ au survol de la souris*/
 nav div a:hover {
     color: #0065FC;
 } 
-nav div a {
+
+.link-nav-hébergements, .link-nav-activités{
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    display: flex;
     position: relative;
+    padding-top: 50px;
+    position: relative;
+    top: -38px;
+    width: 100%;
+    justify-content: center;
+   
 }
+
+.link-nav-hébergements:hover, .link-nav-activités:hover{
+    border-top-color: #0065FC;
+}
+
 
 
 /*on applique un effet bleu  aux liens
@@ -442,7 +456,9 @@ footer div{
         border-bottom-color: #0065FC;
         border-top: transparent;
     }
-    
+    nav div{
+        width: 100%;
+    }
     
     /****** pour section recherche ******/
     /****** pour section recherche ******/
@@ -584,4 +600,4 @@ footer div{
     footer p{
         margin-top: 10px;
     }
-}
+}
