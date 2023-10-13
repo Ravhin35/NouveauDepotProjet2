@@ -53,7 +53,7 @@ a {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .euro {
@@ -342,7 +342,7 @@ nav div a:hover {
  .card-activity img{
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    height: 76%;
+    height: 74%;
     width: 100%;
 }
 
@@ -405,6 +405,13 @@ footer div{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    /* on diminue la taile des images activity */
+    .card-activity{
+        height: 200px;
+    }
+    .card-activity h3{
+        margin-top: 5px;
+    }
 }
 
 
@@ -457,7 +464,7 @@ footer div{
         margin-bottom: 25px;
         margin-top: 20px;
     }
-    
+     
     /****** pour section recherche ******/
     /****** pour section recherche ******/
     
@@ -494,7 +501,7 @@ footer div{
    .filter-bar button{
        margin-bottom: 15px;
        flex-basis: 40%;
-       padding: 10px 0;
+       padding: 15px 0;
     }
     /* on diminue la taille de
     la police pr que tout rentre */
@@ -507,7 +514,7 @@ footer div{
     /* agrandissement de la barre input
     en version mobile; */
     .search-bar-input{
-        width: 60%;
+        width: 40%;
     }
     .search-bar{
         justify-content: center;
@@ -527,7 +534,7 @@ footer div{
  /* les deux codes suivants 
     recadrent la taille des bloc photos */
     .card-activity{
-        height: 180px;
+        height: 280px;
     }
     .card-activity h3{
         margin-top: 5px;
