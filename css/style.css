@@ -45,7 +45,7 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card img {
+.img-hébergements {
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -113,13 +113,6 @@ nav div a:hover {
 .link-nav-hébergements:hover, .link-nav-activités:hover{
     border-top-color: #0065FC;
 }
-
-
-
-/*on applique un effet bleu  aux liens
-au survol de la souris*/
-
-
 
 
        /***** Infos-groupes *****/
@@ -459,6 +452,10 @@ footer div{
     }
     nav div{
         width: 100%;
+    }
+    header{
+        margin-bottom: 25px;
+        margin-top: 20px;
     }
     
     /****** pour section recherche ******/
