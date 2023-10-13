@@ -80,7 +80,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 nav div {
@@ -101,9 +101,10 @@ nav div a:hover {
     border-top: 2px solid transparent;
     display: flex;
     position: relative;
-    padding-top: 50px;
+    padding-top: 24px;
+    padding-bottom: 10px;
     position: relative;
-    top: -38px;
+    top: -8px;
     width: 100%;
     justify-content: center;
    
@@ -600,4 +601,4 @@ footer div{
     footer p{
         margin-top: 10px;
     }
-}
+}
