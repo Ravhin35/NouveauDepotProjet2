@@ -123,9 +123,9 @@ nav div a:hover {
 .filter-bar{
         display: flex;
         width: 100%;
-        align-items: center;
-        /* margin-bottom: 10px; */
-        
+        /* align-items: ; */
+        margin-bottom: 10px;
+
 }
     
 .filter-bar span{
@@ -476,14 +476,14 @@ footer div{
         width: 100%;
     }
 
-    
     .filter-bar span{
         margin-bottom: 10px;
         display: block;
         width: 89%;
         text-align: start;
-        
+        margin: 10px 0 10px 40px;
    }
+   
    .filter-bar div {
     display: flex;
     flex-wrap: wrap;
