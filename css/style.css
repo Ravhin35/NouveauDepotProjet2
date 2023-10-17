@@ -444,10 +444,7 @@ footer div{
 
     /*si margin 0 il faut réespacer le titre h1
     et le premier p */
-     .hebergements {
-         background-color: white;
-    }
-
+     
     h1{
         margin-bottom: 5px;
         text-align:start;
@@ -563,7 +560,9 @@ footer div{
     .section-activity{
         margin-bottom: -70px;
     }
-
+    .section-activity h2{
+        padding-top:40px ;
+    }
 
     /* Pour section hébergement et populaires */
     /* Pour section hébergement et populaires */
@@ -575,7 +574,6 @@ footer div{
     }
     .hebergements-and-populaires {
         flex-direction: column-reverse;
-     
      }
     .populaires-cards{
         flex-direction: column;
@@ -585,9 +583,11 @@ footer div{
     }
     .populaires{
         margin-bottom: 25px;
-       
     }
-  
+    .hebergements {
+        background-color: white;
+   }
+
 
     /* Pour section hébergement */
     /* Pour section hébergement */
