@@ -34,7 +34,7 @@ a {
 }
 
 .section-title {
-    margin: 0;
+    margin-left: 15px;
     font-size: 22px;
 }
 
@@ -51,9 +51,20 @@ a {
     border-radius: 20px 20px 0 0;
     height: 150px;
 }
-
+/* Les 3 points suivants servent à mettre
+les bons éspacements dans les cas activités */
 .card-title {
     font-size: 15px;
+}
+.card-title-hebergement{
+    margin: 4px 0 0 8px;
+}
+
+.card-subtitle{
+    margin: 5px 0 4px 8px;
+}
+.card-rating{
+    margin-left: 8px;
 }
 
 .euro {
@@ -185,6 +196,7 @@ nav div a:hover {
     border-bottom: 1px solid #d9d9d9; 
     border-left: none;
     border-right: none;
+    font-weight: bold;
 }
 .search-bar-button-desktop{
     width: 120px;
@@ -291,6 +303,7 @@ hebergements et à populaires pour l'enlever
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 .populaires-cards .card-content {
@@ -325,7 +338,7 @@ hebergements et à populaires pour l'enlever
 }
 
 .section-activity h2{
-    padding:90px 0 30px 60px ;
+    padding:40px 0 0 60px ;
 }
 
 .activity{
@@ -339,22 +352,23 @@ hebergements et à populaires pour l'enlever
 .card-activity{
     background-color: white;
     border-radius: 20px;
-   
-    height: 
-    439px;
+    height: 350px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
  
  .card-activity img{
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    height: 74%;
+    height: 82%;
     width: 100%;
 }
 
 .card-activity h3{
-    text-align: center;
-    margin-top: 30px;
+    margin-left: 18px;
+    margin-top: 9px;
+}
+.h3-afficher-plus{
+    margin-bottom: 0;
 }
 
 /* code rajouté pour footer */
@@ -410,13 +424,16 @@ footer div{
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    
     }
     /* on diminue la taile des images activity */
     .card-activity{
         height: 200px;
     }
     .card-activity h3{
-        margin-top: 5px;
+        margin-top: 2px;
+        font-size: 12px;
+        margin-left: 10px;
     }
     nav div{
         width: 40%;
@@ -548,7 +565,8 @@ footer div{
         height: 280px;
     }
     .card-activity h3{
-        margin-top: 5px;
+        margin-top: 15px;
+        font-size: 15px;
     }
     .activity{
         flex-direction: column;
@@ -584,18 +602,18 @@ footer div{
     .populaires{
         margin-bottom: 25px;
     }
+   
+    /* Pour section hébergement */
+    /* Pour section hébergement */
+
     .hebergements {
         background-color: white;
    }
 
-
-    /* Pour section hébergement */
-    /* Pour section hébergement */
-
-    
     .hebergement-threesome{
         flex-direction: column;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
+
     }
     .hebergement-threesome a{
         width: 100%;
