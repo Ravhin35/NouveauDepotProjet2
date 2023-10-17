@@ -3,9 +3,10 @@
 
 * {
     font-family: 'Raleway', sans-serif;
-
 }
-
+h1{
+    margin-bottom: -10px;
+}
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -36,6 +37,7 @@ a {
 .section-title {
     margin-left: 15px;
     font-size: 22px;
+    margin-top: 0;
 }
 
 .card {
@@ -92,6 +94,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 nav div {
@@ -178,7 +181,7 @@ nav div a:hover {
 .search-bar{
     display: flex;
     margin-bottom: 20px;
-
+    margin-top: 30px;
 }
 .search-bar-logo{
     width: 40px;
@@ -365,7 +368,7 @@ hebergements et à populaires pour l'enlever
 
 .card-activity h3{
     margin-left: 18px;
-    margin-top: 9px;
+    margin-top: 15px;
 }
 .h3-afficher-plus{
     margin-bottom: 0;
@@ -475,6 +478,7 @@ footer div{
     nav{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 0;
     }
     nav img{
         margin-bottom: 20px;
@@ -492,7 +496,9 @@ footer div{
         margin-bottom: 25px;
         margin-top: 20px;
     }
-     
+     .logo{
+        margin-top: 40px;
+     }
     /****** pour section recherche ******/
     /****** pour section recherche ******/
     
@@ -542,7 +548,7 @@ footer div{
     /* agrandissement de la barre input
     en version mobile; */
     .search-bar-input{
-        width: 40%;
+        width: 55%;
     }
     .search-bar{
         justify-content: center;
@@ -562,10 +568,10 @@ footer div{
  /* les deux codes suivants 
     recadrent la taille des bloc photos */
     .card-activity{
-        height: 280px;
+        height: 250px;
     }
     .card-activity h3{
-        margin-top: 15px;
+        margin-top: 8px;
         font-size: 15px;
     }
     .activity{
@@ -579,7 +585,7 @@ footer div{
         margin-bottom: -70px;
     }
     .section-activity h2{
-        padding-top:40px ;
+        padding:40px 0 0 30px;
     }
 
     /* Pour section hébergement et populaires */
@@ -602,12 +608,16 @@ footer div{
     .populaires{
         margin-bottom: 25px;
     }
+   .section-title{
+    margin-left: 0;
    
+   }
     /* Pour section hébergement */
     /* Pour section hébergement */
 
     .hebergements {
         background-color: white;
+        margin-top: -20px;
    }
 
     .hebergement-threesome{
