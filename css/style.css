@@ -275,6 +275,7 @@ hebergements et à populaires pour l'enlever
 .hebergement-threesome{
     display: flex;
     justify-content: space-around;
+    margin-top: 7px;
 }
 .lien-hébergement{
     width: 30%;
@@ -623,7 +624,7 @@ footer div{
     .hebergement-threesome{
         flex-direction: column;
         margin-bottom: 0px;
-
+        margin-top: 0;
     }
     .hebergement-threesome a{
         width: 100%;
