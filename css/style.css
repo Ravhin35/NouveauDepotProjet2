@@ -86,7 +86,7 @@ nav {
 nav div {
     display: flex;
     width: 25%;
-    justify-content: space-around;
+   
 }
 
 /*on applique un effet bleu  aux liens
@@ -228,10 +228,16 @@ nav div a:hover {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+}
+/* test on rajoute séparemment la couleur à
+hebergements et à populaires pour l'enlever
+à hebergements en mobile */
+.hebergements, .populaires{
+    background-color: var(--main-bg-color);
 }
 
 /****** Hebergements ***********/
@@ -412,6 +418,10 @@ footer div{
     .card-activity h3{
         margin-top: 5px;
     }
+    nav div{
+        width: 40%;
+        justify-content: right;
+    }
 }
 
 
@@ -434,6 +444,10 @@ footer div{
 
     /*si margin 0 il faut réespacer le titre h1
     et le premier p */
+     .hebergements {
+         background-color: white;
+    }
+
     h1{
         margin-bottom: 5px;
         text-align:start;
