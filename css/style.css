@@ -106,10 +106,6 @@ nav div {
 /*on applique un effet bleu  aux liens
 au survol de la souris*/
 
-nav div a:hover {
-    color: #0065FC;
-} 
-
 .link-nav-hébergements, .link-nav-activités{
     border-bottom: 2px solid transparent;
     border-top: 2px solid transparent;
@@ -117,7 +113,6 @@ nav div a:hover {
     position: relative;
     padding-top: 24px;
     padding-bottom: 10px;
-    position: relative;
     top: -8px;
     width: 100%;
     justify-content: center;
@@ -126,6 +121,7 @@ nav div a:hover {
 
 .link-nav-hébergements:hover, .link-nav-activités:hover{
     border-top-color: #0065FC;
+    color: #0065FC;
 }
 
 
@@ -144,7 +140,7 @@ nav div a:hover {
     
 .filter-bar span{
         margin-right: 1.5%;
-        
+        margin-top: 8px;
 }
     
 .filter-bar button {
@@ -519,11 +515,10 @@ footer div{
     }
 
     .filter-bar span{
-        margin-bottom: 10px;
         display: block;
         width: 89%;
         text-align: start;
-        margin: 10px 0 10px 40px;
+        margin: 0 0 12px 40px;
    }
    
    .filter-bar div {
